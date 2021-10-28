@@ -1,0 +1,76 @@
+.story {
+	background: #245852;
+	padding: 232px 0 173px 0 !important;
+	color: $white;
+}
+
+.container {}
+
+.story__row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	// flex-wrap: wrap;
+}
+
+.story__content {
+	max-width: 580px;
+	line-height: 1.57;
+}
+
+.story__title {
+	font-family: 'Georgia';
+	font-weight: 700;
+	font-size: 50px;
+	margin-bottom: 33px;
+}
+
+.story__text {
+	font-weight: 600;
+	font-size: 25px;
+	margin-bottom: 77px;
+}
+
+.story__btn {
+	min-height: 65px;
+}
+
+.story__video {
+	position: relative;
+	padding-bottom: 33.5%;
+	flex: 0 0 58.3%;
+
+	iframe {
+		background: rgba(0, 0, 0, 0.2);
+		border-radius: 16.3326px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		opacity: 0.8;
+		transition: opacity 0.2s ease-in;
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
+// @media (max-width:1350px) {
+// 	.story__video {
+// 		flex: 0 0 100%;
+
+// 		p iframe {
+// 			top: 0;
+// 			transform: translateY(0);
+// 			left: 0;
+// 		}
+// 	}
+
+// 	.story__btn {
+// 		margin-bottom: 20px;
+// 	}
+
+// }

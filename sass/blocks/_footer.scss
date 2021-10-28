@@ -1,0 +1,24 @@
+.footer {
+	padding: 105px 0 144px 0;
+	background: #245852;
+	color: $white;
+}
+
+.footer-logo {}
+
+.footer-item {
+	margin-top: 60px;
+
+	&:first-child {
+		margin-top: 74px;
+	}
+}
+
+.footer-link {
+	font-weight: 600;
+	font-size: 25px;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}

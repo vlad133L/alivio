@@ -1,0 +1,73 @@
+.card {
+	width: 296px;
+	box-shadow: 0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25);
+	background: #FFFFFF;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 28px 20px 30px;
+}
+
+.card__title {
+	font-weight: 600;
+	font-size: 14;
+	line-height: 1.57;
+	text-align: center;
+	position: relative;
+	padding-bottom: 12px;
+	margin-bottom: 13px;
+
+	&::after {
+		content: "";
+		position: absolute;
+		background-color: $black;
+		height: 0.75px;
+		left: -7px;
+		right: -7px;
+		bottom: 0;
+	}
+}
+
+.card-avatar {
+	margin-bottom: 20px;
+}
+
+.avatar {
+	text-align: center;
+}
+
+.avatar-img {
+	margin-bottom: 13px;
+	width: 57px;
+	height: 57px;
+	object-fit: cover;
+	border: 50%;
+}
+
+.avatar-name {
+	font-size: 12;
+	line-height: 1.57;
+}
+
+.card-contents {
+	text-align: left;
+	padding-left: 6px;
+}
+
+.contents-title {
+	font-family: 'Georgia', sans-serif;
+	font-weight: 700;
+	font-size: 16;
+	line-height: 1.57;
+}
+
+.content-list {}
+
+.content-item {
+	list-style-type: disc;
+	list-style-position: inside;
+	font-size: 11px;
+	line-height: 1.57;
+	margin-top: 16px;
+}
